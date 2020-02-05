@@ -855,7 +855,16 @@ top.menu = [
         "peri/d100_OracleAction", 
         "peri/d100_OracleTheme", 
       ],"sub_rolls":[],},
+
+      {"title":"Danger Front", "use":"Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.", "main_rolls":[ 
+        "peri/DungeonWorldFronts", 
+      ],"sub_rolls":[],},
       
+      {"title":"Sandbox - City", "use":"Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.", "main_rolls":[ 
+        "peri/SandboxCityOrigin", 
+        "peri/SandboxCityActivity",
+        "peri/SandboxCityObstacle"
+      ],"sub_rolls":[],},  
     ]
   },
 ];
