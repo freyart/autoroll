@@ -845,6 +845,12 @@ top.menu = [
         "peri/d40_SeedsCity", 
       ],"sub_rolls":[],},
 
+      {"title":"The Godbound Words (from the official words)", "use":"Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.", "main_rolls":[ 
+        "peri/GodboundWords", 
+        "peri/GodboundWords", 
+        "peri/GodboundWords", 
+      ],"sub_rolls":[],},
+
       {"title":"Oracle", "use":"Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.", "main_rolls":[ 
         "peri/d100_OracleAction", 
         "peri/d100_OracleTheme", 
