@@ -148,6 +148,9 @@ function get_table(table){
     case "subrolls":
       return top.subrolls;
       break;
+    case "peri":
+      return top.peri;
+      break;
   }
 }
 

@@ -182,7 +182,6 @@ fishing_catch = [
   {"title":"- Seafood Harvesting", "use":"To harvest seafood the player must have a hunting trap, and must succeed on a skill check vs a DC 12. If he or she has proficiency in Survival then the player can make this check with advantage. The player can only harvest their traps after 24 hours have passed.", "main_rolls":[ "objects/d12seafood",],"sub_rolls":[],},
 ];
 
-
 top.subrolls = [
 
   // dungeons/locations

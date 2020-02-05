@@ -354,6 +354,7 @@ top.menu = [
 
     ],
   },
+
   { "title":"Dungeons", "id":"Dungeons",
     "items":[
 
@@ -495,7 +496,6 @@ top.menu = [
 
     ]
   },
-
 
   { "title":"Monsters", "id":"Monsters",
     "items":[
@@ -807,6 +807,49 @@ top.menu = [
       {"title":"Underdark", "use":"Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.", "main_rolls":[  "wilderness/d10entrancethecavemouthis_underdark", "wilderness/d50denizenswhatlivesinthecave?_underdark", "wilderness/d10ecologythecreatureis_underdark", "wilderness/d20distinguishinglandmarkyousee_underdark", "wilderness/d12featuresyounotice_underdark", "wilderness/d12thecavewallis_underdark", "wilderness/d6thecaveceilingis_underdark", "wilderness/d6hazardsobstaclesyoufind_underdark", "wilderness/d12travelersvisitorsyoucomeupon_underdark",],"sub_rolls":[],},
 
 
+    ]
+  },
+
+  { "title":"Peri", "id":"Peri",
+    "items":[
+      {"title":"Character generation", "use":"Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.", "main_rolls":[ 
+        "peri/d100_CharacterRole",
+        "peri/d120_CharacterTraits", 
+        "peri/d120_CharacterTraits", 
+        "peri/d120_CharacterTraits", 
+        "peri/d50_CharacterHook", 
+        "peri/d100_CharacterSimpleGoals",
+        "peri/d100_CharacterComplexGoals",
+        "peri/d50_NPCSecrets", 
+      ],"sub_rolls":[],},
+
+      {"title":"Character traits", "use":"Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.", "main_rolls":[ 
+        "peri/d120_CharacterTraits", 
+        "peri/d120_CharacterTraits", 
+        "peri/d120_CharacterTraits", 
+      ],"sub_rolls":[],},
+
+      {"title":"Location traits", "use":"Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.", "main_rolls":[ 
+        "peri/d50_LocationTrait", 
+        "peri/d50_LocationTrait", 
+        "peri/d50_LocationTrait", 
+      ],"sub_rolls":[],},
+
+      {"title":"Advanced NPCs Motivations", "use":"Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.", "main_rolls":[ 
+        "peri/d100_NPCMotivationVerb", 
+        "peri/d100_NPCMotivationNoun", 
+      ],"sub_rolls":[],},
+
+      {"title":"Idea Seeds", "use":"Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.", "main_rolls":[ 
+        "peri/d40_SeedsCity", 
+        "peri/d40_SeedsCity", 
+      ],"sub_rolls":[],},
+
+      {"title":"Oracle", "use":"Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.", "main_rolls":[ 
+        "peri/d100_OracleAction", 
+        "peri/d100_OracleTheme", 
+      ],"sub_rolls":[],},
+      
     ]
   },
 ];
