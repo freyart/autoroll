@@ -840,6 +840,11 @@ top.menu = [
         "peri/d100_NPCMotivationNoun", 
       ],"sub_rolls":[],},
 
+      {"title":"Action/Theme Oracle", "use":"Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.", "main_rolls":[ 
+        "peri/d100_OracleAction", 
+        "peri/d100_OracleTheme", 
+      ],"sub_rolls":[],},
+
       {"title":"Idea Seeds", "use":"Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.", "main_rolls":[ 
         "peri/d40_SeedsCity", 
         "peri/d40_SeedsCity", 
