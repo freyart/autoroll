@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Whaaah!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+
+<body>
+    <!-- Menu de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Peri's Dashboard</a>
+        
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-googledocs" role="tab" aria-controls="nav-googledocs" aria-selected="true">
+                GoogleDocs
+            </a>
+            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">
+                Fari
+            </a>
+            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">
+                Contact
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid main-wrapper d-flex">
+        <div class="row flex-fill">
+            <div class="tab-content" id="nav-tabContent">
+                <!-- Section pour l'onglet des documents GoogleDocs -->
+                <div class="tab-pane fade show active" id="nav-googledocs" role="tabpanel">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-2 p-2">
+                                <div id="googledoc-listbtn" class="btn-group-vertical" role="group">
+                                    <a class="btn btn-dark btn-googledoc" href="#" role="button" data-path="https://docs.google.com/document/d/1VrwgSyk_rQGN_PlOeY681AgNrcSIX2VFPf0OWQQB444/edit">(Godbound) Irina Rosenthal</a>
+                                    <a class="btn btn-dark btn-googledoc" href="#" role="button" data-path="https://docs.google.com/document/d/1YfADWIcsTIW2X5ihZPxHjp1GJg3pntlkYnL6i4MT8SA/edit?usp=sharing">(DnD5e) Ash</a>
+                                </div>
+                            </div>
+                            <div class="col-10 p-0">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">URL Ouvert:</span>
+                                    </div>
+                                    <input id="googledoc-path" type="text" class="form-control " value=" " readonly>
+                                    <div class="input-group-append">
+                                        <a id="googledoc-goto" class="btn btn-primary" href="#" role="button">Ouvrir dans le navigateur</a>
+                                    </div>
+                                </div>
+                                <embed id="googledoc-view" src="" />                      
+                             </div>
+                         </div>
+                     </div>
+
+
+
+
+                </div>
+                <!-- Fin documents google docs -->
+
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" >
+                    <embed src="https://fari.app/play"/>
+                </div>
+
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>
